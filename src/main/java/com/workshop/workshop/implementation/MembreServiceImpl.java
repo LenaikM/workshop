@@ -44,6 +44,11 @@ public class MembreServiceImpl implements IMembreService {
     }
 
     @Override
+    public Membre findByEmail(String email) {
+        return null;
+    }
+
+    @Override
     public Membre auth(String email, String password) {
 
         Membre membre = membreRepo.findByEmail(email);

@@ -11,6 +11,8 @@ public interface IMembreService {
 
     Membre get(Long id);
 
+    Membre findByEmail(String email);
+
     Membre auth(String email, String password);
     Collection<Membre> list(int limit);
     Boolean delete(Long id);

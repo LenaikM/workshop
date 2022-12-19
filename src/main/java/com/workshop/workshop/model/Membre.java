@@ -5,10 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 import java.io.Serializable;
 
@@ -36,5 +33,8 @@ public class Membre implements Serializable {
     private String adresse;
     private int codePostal;
     private String telephone;
+
+    @ManyToOne
+    private Role role;
 
 }
