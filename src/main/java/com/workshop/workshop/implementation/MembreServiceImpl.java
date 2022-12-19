@@ -48,14 +48,6 @@ public class MembreServiceImpl implements IMembreService {
         return null;
     }
 
-    @Override
-    public Membre auth(String email, String password) {
-
-        Membre membre = membreRepo.findByEmail(email);
-        if ()
-
-        return null;
-    }
 
     @Override
     public Collection<Membre> list(int limit) {
