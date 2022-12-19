@@ -1,0 +1,15 @@
+
+spring:
+    datasource:
+      password: mdp24
+      url: jdbc:mysql://localhost:3306/workshop
+      username: root
+    jpa:
+        hibernate:
+            ddl-auto: create
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MYSQL8Dialect
+                format_sql: true
+        show-sql: true
+
