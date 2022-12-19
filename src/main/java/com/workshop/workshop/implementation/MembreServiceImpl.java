@@ -2,11 +2,11 @@ package com.workshop.workshop.implementation;
 
 import com.workshop.workshop.model.Membre;
 import com.workshop.workshop.repository.MembreRepository;
-import com.workshop.workshop.service.MembreService;
+import com.workshop.workshop.service.IMembreService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
@@ -18,7 +18,10 @@ import static java.lang.Boolean.TRUE;
 @Service
 @Transactional
 @Slf4j
-public class MembreServiceImpl implements MembreService {
+public class MembreServiceImpl implements IMembreService {
+
+    @Autowired
+    private MembreRepository membreRepository;
 
     private final MembreRepository membreRepo;
 
@@ -36,6 +39,16 @@ public class MembreServiceImpl implements MembreService {
 
     @Override
     public Membre get(Long id) {
+        System.out.println(id);
+        return membreRepo.findById(id).get(); //avec le get on récupère le membre
+    }
+
+    @Override
+    public Membre auth(String email, String password) {
+
+        Membre membre = membreRepo.findByEmail(email);
+        if ()
+
         return null;
     }
 

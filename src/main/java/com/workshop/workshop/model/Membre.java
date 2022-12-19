@@ -10,13 +10,15 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+import java.io.Serializable;
+
 import static javax.persistence.GenerationType.AUTO;
 
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Membre {
+public class Membre implements Serializable {
 
     @Id
     @GeneratedValue(strategy = AUTO)

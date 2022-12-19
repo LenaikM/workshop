@@ -4,12 +4,14 @@ import com.workshop.workshop.model.Membre;
 
 import java.util.Collection;
 
-public interface MembreService {
+public interface IMembreService {
 
     Membre create(Membre membre);
     Membre update(Membre membre);
 
     Membre get(Long id);
+
+    Membre auth(String email, String password);
     Collection<Membre> list(int limit);
     Boolean delete(Long id);
 }

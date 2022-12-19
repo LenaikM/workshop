@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc069f55-cadd-46f4-bf01-76d272cd7baf" name="Changes" comment="" />
+    <list default="true" id="fc069f55-cadd-46f4-bf01-76d272cd7baf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/service/CustomMembreDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/MembreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/MembreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/implementation/MembreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/implementation/MembreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/Membre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/Membre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/service/MembreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/service/IMembreService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -31,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2J7wp8zwXJy9d4Kgza07L6q9BWh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,11 +70,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671442617981</updated>
-      <workItem from="1671442622024" duration="9193000" />
+      <workItem from="1671442622024" duration="10932000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
