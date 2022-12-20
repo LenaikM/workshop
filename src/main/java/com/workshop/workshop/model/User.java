@@ -15,13 +15,13 @@ import static javax.persistence.GenerationType.AUTO;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Membre implements Serializable {
+public class User implements Serializable {
 
     @Id
     @GeneratedValue(strategy = AUTO)
     private Long id;
 
-    private String nom;
+    private String name;
     private String prenom;
 
     @Column(unique = true)
@@ -36,5 +36,18 @@ public class Membre implements Serializable {
 
     @ManyToOne
     private Role role;
+
+    public User(String name, String prenom, @NonNull String email, String mdp, String dateNaissance, String adresse, int codePostal, String telephone, Role role) {
+        this.name = name;
+        this.prenom = prenom;
+        this.email = email;
+        this.mdp = mdp;
+        this.dateNaissance = dateNaissance;
+        this.adresse = adresse;
+        this.codePostal = codePostal;
+        this.telephone = telephone;
+        this.role = role;
+    }
+
 
 }

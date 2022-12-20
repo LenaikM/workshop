@@ -19,7 +19,7 @@ public class Reservation {
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "id", nullable = false)
+    @JoinColumn(name = "idCours", nullable = false, insertable = false, updatable = false)
     private Cours cours;
 
     private Date dateSeance;

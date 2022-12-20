@@ -16,7 +16,7 @@ public class Cours {
 
     @Id
     @GeneratedValue(strategy = AUTO)
-    private Long id;
+    private Long idCours;
 
     private String nomCours;
     private String professeur;

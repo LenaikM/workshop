@@ -1,7 +1,7 @@
 package com.workshop.workshop.implementation;
 
-import com.workshop.workshop.model.Membre;
-import com.workshop.workshop.repository.MembreRepository;
+import com.workshop.workshop.model.User;
+import com.workshop.workshop.repository.UserRepository;
 import com.workshop.workshop.service.IMembreService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -18,39 +18,39 @@ import static java.lang.Boolean.TRUE;
 @Service
 @Transactional
 @Slf4j
-public class MembreServiceImpl implements IMembreService {
+public class UserServiceImpl implements IMembreService {
 
     @Autowired
-    private MembreRepository membreRepository;
+    private UserRepository userRepository;
 
-    private final MembreRepository membreRepo;
+    private final UserRepository membreRepo;
 
     @Override
-    public Membre create(Membre membre) {
-        System.out.println(membre.getEmail()); //affiche l'email du membre passé en paramètre
-        return membreRepo.save(membre); //enregistre le nouveau memebre dans la base de données
+    public User create(User user) {
+        System.out.println(user.getEmail()); //affiche l'email du membre passé en paramètre
+        return membreRepo.save(user); //enregistre le nouveau memebre dans la base de données
     }
 
     @Override
-    public Membre update(Membre membre) {
-        System.out.println(membre);
-        return membreRepo.save(membre);
+    public User update(User user) {
+        System.out.println(user);
+        return membreRepo.save(user);
     }
 
     @Override
-    public Membre get(Long id) {
+    public User get(Long id) {
         System.out.println(id);
         return membreRepo.findById(id).get(); //avec le get on récupère le membre
     }
 
     @Override
-    public Membre findByEmail(String email) {
+    public User findByEmail(String email) {
         return null;
     }
 
 
     @Override
-    public Collection<Membre> list(int limit) {
+    public Collection<User> list(int limit) {
         return membreRepo.findAll(PageRequest.of(0, limit)).toList(); //récupère toutes les pages de la 1ère à la limite imposé sous forme de liste
     }
 

@@ -1,18 +1,18 @@
 package com.workshop.workshop.service;
 
-import com.workshop.workshop.model.Membre;
+import com.workshop.workshop.model.User;
 
 import java.util.Collection;
 
 public interface IMembreService {
 
-    Membre create(Membre membre);
-    Membre update(Membre membre);
+    User create(User user);
+    User update(User user);
 
-    Membre get(Long id);
+    User get(Long id);
 
-    Membre findByEmail(String email);
+    User findByEmail(String email);
 
-    Collection<Membre> list(int limit);
+    Collection<User> list(int limit);
     Boolean delete(Long id);
 }

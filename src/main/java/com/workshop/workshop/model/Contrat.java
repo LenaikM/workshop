@@ -19,12 +19,12 @@ public class Contrat {
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "nom", nullable = false)
-    private Membre souscripteur;
+    @JoinColumn(name = "nom", nullable = false, insertable = false, updatable = false)
+    private User souscripteur;
 
     @ManyToOne
-    @JoinColumn(name = "nom", nullable = false)
-    private Membre beneficiaire;
+    @JoinColumn(name = "nom", nullable = false, insertable = false, updatable = false)
+    private User beneficiaire;
 
     private String adresseSouscripteur;
     private String codePostaleSouscrpteur;
