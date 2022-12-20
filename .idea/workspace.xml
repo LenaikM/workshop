@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc069f55-cadd-46f4-bf01-76d272cd7baf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/config/SercurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/service/ConnexionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/implementation/MembreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/implementation/MembreServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/service/IMembreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/service/IMembreService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Lena-/OneDrive/Documents/CoursCDA/EtudesDeCas/EtudeDeCas2/Angular/workshopFr"
   }
 }]]></component>
   <component name="RunManager">
@@ -68,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671442617981</updated>
-      <workItem from="1671442622024" duration="14579000" />
+      <workItem from="1671442622024" duration="17075000" />
     </task>
     <servers />
   </component>
