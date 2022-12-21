@@ -14,7 +14,6 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @CrossOrigin(origins = "http://localhost:4200")
-
 public class UserController {
 
     private final UserRepository userRepository;
@@ -32,8 +31,6 @@ public class UserController {
     @PostMapping("/connexion")
     public ResponseEntity<Response> auth (@RequestBody @RequestParam String email,
                                           @RequestParam String password){
-
-
 
         return null;
     }
