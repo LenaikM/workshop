@@ -13,22 +13,21 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
 public class UserController {
 
     private final UserRepository userRepository;
 
-    @GetMapping("/users")
+    @GetMapping("/lusers")
     public List<User> getUsers(){
         return (List<User>) userRepository.findAll();
     }
 
-    @PostMapping("/users")
+    @PostMapping("/lusers")
     void addUser(@RequestBody User user) {
         userRepository.save(user);
     }
 
-    @PostMapping("/connexion")
+    @PostMapping("/lconnexion")
     public ResponseEntity<Response> auth (@RequestBody @RequestParam String email,
                                           @RequestParam String password){
 

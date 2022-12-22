@@ -5,44 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc069f55-cadd-46f4-bf01-76d272cd7baf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/MyErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/service/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/form-registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/register-success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/MembreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/config/SercurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/implementation/MembreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/implementation/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/Contrat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/Contrat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/Cours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/Cours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/Membre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/repository/MembreRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/service/CustomMembreDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/service/CustomMembreDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/implementation/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/implementation/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/service/IMembreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/workshop/workshop/service/IMembreService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/angular-app/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Scss/FormUser.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Css/FormUser.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/FormUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/FormUser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/FormUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/FormUser.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +29,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="SCSS File" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -78,28 +55,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Lena-/OneDrive/Documents/CoursCDA/EtudesDeCas/EtudeDeCas2/workshop2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "fileTemplates",
-    "spring.configuration.checksum": "33f2ee11f1130c5c6e11061cc91d9b9a"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lena-/OneDrive/Documents/CoursCDA/EtudesDeCas/EtudeDeCas2/workshop&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;33f2ee11f1130c5c6e11061cc91d9b9a&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Spring Boot.Application">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lena-\OneDrive\Documents\CoursCDA\EtudesDeCas\EtudeDeCas2\workshop\src\main\resources\Scss" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WorkshopApplication">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
@@ -143,7 +128,10 @@
       <updated>1671442617981</updated>
       <workItem from="1671442622024" duration="23237000" />
       <workItem from="1671532256410" duration="1515000" />
-      <workItem from="1671533851759" duration="5021000" />
+      <workItem from="1671533851759" duration="32422000" />
+      <workItem from="1671714886795" duration="24000" />
+      <workItem from="1671714950817" duration="2562000" />
+      <workItem from="1671719142486" duration="4907000" />
     </task>
     <servers />
   </component>

@@ -50,8 +50,8 @@ public class UserServiceImpl implements IMembreService {
 
 
     @Override
-    public Collection<User> list(int limit) {
-        return membreRepo.findAll(PageRequest.of(0, limit)).toList(); //récupère toutes les pages de la 1ère à la limite imposé sous forme de liste
+    public Collection<User> list() {
+        return membreRepo.findAll(); //récupère toutes les pages de la 1ère à la limite imposé sous forme de liste
     }
 
     @Override

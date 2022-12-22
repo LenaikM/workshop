@@ -1,0 +1,15 @@
+h2{
+  text-align: center;
+  margin-top: 3rem;
+}
+.formSignIn{
+  margin : 3rem;
+}
+
+.containerForm{
+  border: solid darkgray;
+  border-radius: 30px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 3rem;
+}

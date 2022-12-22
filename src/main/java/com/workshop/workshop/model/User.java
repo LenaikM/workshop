@@ -21,7 +21,7 @@ public class User implements Serializable {
     @GeneratedValue(strategy = AUTO)
     private Long id;
 
-    private String name;
+    public String name;
     private String prenom;
 
     @Column(unique = true)
@@ -36,6 +36,7 @@ public class User implements Serializable {
 
     @ManyToOne
     private Role role;
+
 
     public User(String name, String prenom, @NonNull String email, String mdp, String dateNaissance, String adresse, int codePostal, String telephone, Role role) {
         this.name = name;

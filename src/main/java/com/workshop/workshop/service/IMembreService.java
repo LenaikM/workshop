@@ -13,6 +13,8 @@ public interface IMembreService {
 
     User findByEmail(String email);
 
-    Collection<User> list(int limit);
+    Collection<User> list();
     Boolean delete(Long id);
+
+
 }
