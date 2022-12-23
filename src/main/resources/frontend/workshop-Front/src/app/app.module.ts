@@ -8,12 +8,16 @@ import { UserFormComponent } from './user-form/user-form.component';
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import {UserServiceService} from "./user-service.service";
+import { AccueilSalleComponent } from './accueil-salle/accueil-salle.component';
+import { AbonnementSalleComponent } from './abonnement-salle/abonnement-salle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
-    UserFormComponent
+    UserFormComponent,
+    AccueilSalleComponent,
+    AbonnementSalleComponent
   ],
     imports: [
         BrowserModule,
