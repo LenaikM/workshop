@@ -7,7 +7,6 @@
     <list default="true" id="fc069f55-cadd-46f4-bf01-76d272cd7baf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/workshop-Front/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/frontend/workshop-Front/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/workshop-Front/src/app/user-form/user-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/frontend/workshop-Front/src/app/user-form/user-form.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/frontend/workshop-Front/src/app/user-form/user-form.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/frontend/workshop-Front/src/app/user-form/user-form.component.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +72,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lena-\OneDrive\Documents\CoursCDA\EtudesDeCas\EtudeDeCas2\workshop\src\main\resources\frontend\workshop-Front\src" />
       <recent name="C:\Users\Lena-\OneDrive\Documents\CoursCDA\EtudesDeCas\EtudeDeCas2\workshop\src\main\resources\Scss" />
     </key>
   </component>
@@ -125,7 +125,7 @@
       <workItem from="1671714950817" duration="2562000" />
       <workItem from="1671719142486" duration="5111000" />
       <workItem from="1671782849521" duration="1614000" />
-      <workItem from="1671800559135" duration="1676000" />
+      <workItem from="1671800559135" duration="3155000" />
     </task>
     <servers />
   </component>
